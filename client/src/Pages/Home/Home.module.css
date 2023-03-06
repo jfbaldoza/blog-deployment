@@ -1,0 +1,14 @@
+.app__home_header {
+    height: 285px;
+    object-fit: cover;
+    object-position: 15% 47%;
+    margin-bottom: .5rem;
+}
+
+.app__home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

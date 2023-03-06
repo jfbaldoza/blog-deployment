@@ -1,0 +1,45 @@
+
+.app__post {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.app__post_container {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 30rem;
+    gap: 1rem;
+    overflow: hidden;
+    background-color: aliceblue;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    justify-content: flex-start;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.app__post_container img {
+    width: 80%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.app__posts_date {
+    text-align: center;
+}
+
+.app__post_container p {
+    width: 100%;
+    overflow: hidden;
+}
+
+.app__post_container a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+}
